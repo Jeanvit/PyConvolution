@@ -1,6 +1,6 @@
 # About
 
-Code for evaluating the performance of a Parallel Convolution on images.
+Code for evaluating the performance of a Parallel Convolution operation on images.
 
 # The algorithm can be separated into five steps:
 - Define N as the number of available cores;
