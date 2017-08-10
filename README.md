@@ -13,6 +13,7 @@ The results are available at http://jeanvitor.com/convolution-parallel-algorithm
 
 # How to use
 - Download and Install [Anaconda](https://www.continuum.io/downloads)
+- Install joblib package: `conda install -c anaconda joblib `
 - To run: `py Conv.py`
 
 
