@@ -62,7 +62,8 @@ def join (slices,height, width):
 #=============================================================================================
 #main
 if __name__ == '__main__':
-    f = misc.imread('5.jpg', False, mode='L')
+    imageName=nome = input('Image name:')
+    f = misc.imread(imageName, False, mode='L')
 
     height, width = f.shape
     imageSlices=multiprocessing.cpu_count()
